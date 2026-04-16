@@ -1,9 +1,5 @@
 # 🏠 Home Lab - Atualização dos Containers
 
-Este documento descreve o processo de atualização dos containers Docker no servidor Debian.
-
----
-
 ## 🖼️ Arquitetura do Home Lab
 
 ![Arquitetura](img/image.png)
