@@ -2,7 +2,7 @@
 
 ## 🖼️ Arquitetura do Home Lab
 
-![Arquitetura](./img/image.png)
+![Arquitetura](./Img/image.png)
 
 ---
 
