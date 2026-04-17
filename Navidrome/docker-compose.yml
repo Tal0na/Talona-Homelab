@@ -7,6 +7,17 @@ services:
     restart: unless-stopped
     environment:
       ND_LOGLEVEL: info
+
+      ND_LASTFM_ENABLED: "true"
+      ND_LASTFM_APIKEY: ""
+
+      ND_LASTFM_SECRET: ""
+      ND_LISTENBRAINZ_ENABLED: "true"
+      ND_LISTENBRAINZ_USERTOKEN: ""
+
+      ND_DEFAULTTHEME: "Dracula"
+      ND_DEFAULTLANGUAGE: pt-br
+      ND_UIWELCOMEMESSAGE: "Bem-vinde"
     volumes:
       - "/home/talona/navidrome/data:/data"
-      - "/home/talona/Publico/Music:/music:ro"
+      - "/home/talona/Publico/media/Music:/music:ro"
