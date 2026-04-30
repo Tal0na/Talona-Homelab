@@ -10,12 +10,12 @@ services:
 
       ND_LASTFM_ENABLED: "true"
       ND_LASTFM_APIKEY: ""
-
       ND_LASTFM_SECRET: ""
+
       ND_LISTENBRAINZ_ENABLED: "true"
       ND_LISTENBRAINZ_USERTOKEN: ""
 
-      ND_DEFAULTTHEME: "Dracula"
+      ND_DEFAULTTHEME: "Gruvbox Dark"
       ND_DEFAULTLANGUAGE: pt-br
       ND_UIWELCOMEMESSAGE: "Bem-vinde"
     volumes:
